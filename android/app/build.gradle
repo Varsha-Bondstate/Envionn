@@ -161,7 +161,7 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-            crunchPngs false // or true
+            crunchPngs true // or true
         }
     }
     // applicationVariants are e.g. debug, release
